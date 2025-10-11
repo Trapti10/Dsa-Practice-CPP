@@ -52,10 +52,12 @@ This approach is easy to understand and good for beginners, even though it’s n
 ⏱️ Time & Space Complexity
 
 🕒 Time Complexity
+
 The code uses two nested loops → for each element, we check all other elements after it.
 Therefore, Time Complexity = O(n²), where n is the size of the array.
 
 💾 Space Complexity
+
 We are only using a few extra variables (no additional data structures).
 Hence, Space Complexity = O(1).
 

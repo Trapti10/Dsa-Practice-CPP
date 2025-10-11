@@ -48,21 +48,6 @@ This approach is easy to understand and good for beginners, even though it’s n
 
 ---
 
-### 💻 Code (C++)
-```cpp
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        for(int i = 0; i < nums.size(); i++) {
-            for(int j = i + 1; j < nums.size(); j++) {
-                if(nums[i] + nums[j] == target) {
-                    return {i, j};
-                }
-            }
-        }
-        return {};
-    }
-};
 ⏱️ Time & Space Complexity
 🕒 Time Complexity
 The code uses two nested loops → for each element, we check all other elements after it.
@@ -78,3 +63,23 @@ This was my first DSA problem on LeetCode.
 I understood how nested loops work for pair comparison.
 
 Next, I’ll try to solve this with a better (optimized) approach using a hash map.
+
+---
+
+### 💻 Solution Code 
+
+Code (C++)
+```cpp
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        for(int i = 0; i < nums.size(); i++) {
+            for(int j = i + 1; j < nums.size(); j++) {
+                if(nums[i] + nums[j] == target) {
+                    return {i, j};
+                }
+            }
+        }
+        return {};
+    }
+};

@@ -1,6 +1,7 @@
 # Day 1 - Two Sum
 
-**Problem Link: Two Sum – LeetCode
+## Two Sum Problem
+You can view the problem description here: [Problem Link](https://leetcode.com/problems/two-sum/description/)
 
 ---
 

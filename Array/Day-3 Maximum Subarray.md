@@ -1,6 +1,6 @@
 🧩 Problem: Maximum Subarray
 
-**[Problem Link](https://leetcode.com/problems/maximum-subarray/)**
+**You can read the problem description  here : [Problem Link](https://leetcode.com/problems/maximum-subarray/)**
 
 ## 📄 Problem Statement
 Given an integer array `nums`, find the **subarray with the largest sum** and return its sum.
@@ -35,6 +35,12 @@ I used **Kadane's Algorithm** here.
 
 ---
 
+🕒 Time Complexity
+We traverse the array once → O(n), where n is the size of nums.
+
+💾 Space Complexity
+Only a few extra variables are used → O(1).
+
 ## ⚙️ Code (C++)
 ```cpp
 class Solution {
@@ -52,9 +58,4 @@ public:
         return maxSum;
     }
 };
-🕒 Time Complexity
-We traverse the array once → O(n), where n is the size of nums.
-
-💾 Space Complexity
-Only a few extra variables are used → O(1).
 

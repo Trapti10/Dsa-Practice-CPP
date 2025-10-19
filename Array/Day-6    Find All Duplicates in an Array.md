@@ -1,6 +1,6 @@
 # 🔗🧩 Find All Duplicates in an Array
 
-You can read the problem description here: (https://leetcode.com/problems/find-all-duplicates-in-an-array/description/).
+You can read the problem description here: [Problem](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/).
 
 
 ## 📄 Problem Statement

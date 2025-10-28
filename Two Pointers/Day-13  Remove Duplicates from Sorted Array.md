@@ -34,11 +34,11 @@ I used the **two-pointer technique** to remove duplicates in-place:
 
 ---
 
-🕒 Time Complexity
+🕒 Time Complexity:
 
 Single pass through the array → O(n)
 
-💾 Space Complexity
+💾 Space Complexity:
 
 In-place, no extra array used → O(1)
 

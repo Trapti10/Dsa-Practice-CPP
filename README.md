@@ -1,6 +1,6 @@
 
 Welcome to my **Data Structures and Algorithms (DSA)** practice repository.  
-This repository contains solutions to various DSA problems from platforms like **LeetCode** and **GeeksforGeeks**, all implemented in **C++**.
+This repository contains solutions to various DSA problems from **LeetCode** all implemented in **C++**.
 
 ---
 
@@ -38,7 +38,7 @@ Each problem file includes:
 
 1. Clone the repository:
   
-   git clone https://github.com/<your-username>/DSA-Practice-CPP.git
+git clone https://github.com/<your-username>/DSA-Practice-CPP.git
 Navigate to a specific topic folder:
 
 
@@ -56,8 +56,6 @@ Problem statements are sourced from:
 
 LeetCode
 
-GeeksforGeeks
-
-All rights and credits belong to their respective platforms.
+All rights and credits belong to the respective platform.
 
 👩‍💻 Created by Trapti Vishwakarma
